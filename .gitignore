@@ -1,0 +1,83 @@
+# ==============================
+# RYGAR SENTINAL - Git Ignore
+# ==============================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+*.secret
+secrets/
+credentials/
+
+# Wi-Fi / local configuration
+config_local.py
+wifi_config.py
+
+# AI generated datasets / models
+ai/*/normal_data.csv
+ai/*/*.joblib
+ai/*/*.pkl
+*.joblib
+*.pkl
+*.csv
+
+# Local logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Python local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Camera / generated media
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+*.mkv
+
+# Build / cache files
+build/
+dist/
+.cache/
+
+# Arduino temporary files
+*.hex
+*.elf
+*.eep
+*.map
+
+# Local test files
+test_output/
+runtime/
